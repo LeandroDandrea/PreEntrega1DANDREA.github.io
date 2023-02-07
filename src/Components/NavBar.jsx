@@ -1,11 +1,10 @@
 import React from "react";
 import CartWidget from "./CartWidget";
 
-const NavBar = ({ greeting }) => {
+const NavBar = () => {
   return (
     <div>
       <CartWidget />
-      <h1>{greeting}</h1>
       <div class="list-group">
         <ul>
           <a href="#" class="list-group-item list-group-item-action">

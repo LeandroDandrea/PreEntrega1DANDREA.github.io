@@ -5,8 +5,8 @@ import NavBar from './Components/NavBar'
 function App() {
   return (
     <div>
-      <NavBar greeting = "PRODUCTOS"/>
-      <ItemListContainer />
+      <NavBar />
+      <ItemListContainer greeting = "PRODUCTOS"/>
     </div>
   )
 }
